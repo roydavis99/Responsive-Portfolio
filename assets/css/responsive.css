@@ -12,3 +12,46 @@
 }
 
 }
+
+@media screen and (max-width: 768px) {
+    .header{
+        width:auto;
+        margin:0px 20px;
+    }
+    
+    .body {
+        width:auto;
+        margin: 120px 20px;
+    }
+    
+    }
+
+@media screen and (max-width: 640px) {
+    .header{
+        width:auto;
+        margin:0px;
+        height: auto;
+        text-align: center;
+    }
+
+    .nav {
+        position: relative; 
+        padding: 10px;
+    }
+    
+    .body {
+        width:auto;
+        margin: 120px 20px;
+    }
+
+    .name-tag {
+        float: none;
+        min-width: 100%;
+        position: relative;
+    }
+    .img-holder{
+        float: none;
+        margin: 10px 20px;
+        width: auto;
+    }
+}
